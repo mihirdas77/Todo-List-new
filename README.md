@@ -20,7 +20,7 @@ A simple todo list application built using HTML, CSS, and JavaScript.
 
 ## Demo
 
-[https://new-todolistcom.netlify.app/](Live) (Replace this with the actual link once you deploy your application)
+[Live](https://new-todolistcom.netlify.app/) (Replace this with the actual link once you deploy your application)
 
 ## Installation
 
