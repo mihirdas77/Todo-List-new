@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="img">
+    <div>
+      <h1>Todo List</h1>
+      <div id="container">
+        <input placeholder="Write Your Task Here" id="todoName">
+        <select id="priority">
+          <option>Priority</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <button id="btn1" onclick="addOrUpdateTodo()">Add Task</button>
+      </div>
+
+      <div id="table-container">
+        <table>
+          <thead>
+            <th>S.no</th>
+            <th>Task Name</th>
+            <th>Priority</th>
+            <th>Status</th>
+            <th>Action</th>
+          </thead>
+          <tbody id="taskList">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  <footer>Made by MIHIR DAS💫<br>Visit More Projects<a id="a"
+      href="https://github.com/mihirdas77?tab=repositories">GitHub</a>
+  </footer>
+</body>
+<script src="index.js"></script>
+</html>
